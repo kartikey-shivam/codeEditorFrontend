@@ -1,5 +1,9 @@
-import MonacoEditor from 'react-monaco-editor';
 import { XIcon } from '@heroicons/react/solid';
+// import MonacoEditor from 'react-monaco-editor/lib';
+import dynamic from 'next/dynamic';
+
+const MonacoEditor = dynamic(() => import('react-monaco-editor'), { ssr: false });
+
 const Tab = ({ title, onClose,extraClass }) => {
     return (
       <div className={`flex items-center text-white px-4 py-3 3xl:py-4 border-[0.5px] border-[#FFFFFF0A]  ${extraClass}`}>
