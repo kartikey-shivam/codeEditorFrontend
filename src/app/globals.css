@@ -31,3 +31,51 @@ body {
     text-wrap: balance;
   }
 }
+::-webkit-scrollbar {
+  display: none;
+}
+.monaco-editor{
+  width: 100% !important;
+  height: 100% !important;
+  
+
+}
+.overflow-guard{
+  background-color: #0D0F11 !important;
+  width: 100% !important;
+  height: 100% !important;
+
+
+
+}
+.view-lines{
+  background-color: #0D0F11 !important;
+  width: 100% !important;
+  height: 100% !important;
+
+
+}
+.margin-view-overlays{
+  background-color: #0D0F11 !important;
+  width: 100% !important;
+  height: 100% !important;
+  
+
+
+}
+.minimap-decorations-layer{
+  background-color: #0D0F11 !important;
+
+  
+}
+.decorationsOverviewRuler{
+  background-color: #0D0F11 !important;
+  display: none !important;
+
+}
+.scrollbar {
+  background-color: #0D0F11 !important;
+  display: none !important;
+
+
+}
